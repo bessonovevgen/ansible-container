@@ -1,0 +1,8 @@
+version: '2'                                                                                            
+services:        
+  ansible:
+    image: docker-ansible
+    build: .
+    volumes:
+      - ./:/srv
+      - ~/.ssh:/root/keys
