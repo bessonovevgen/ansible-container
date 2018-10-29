@@ -26,6 +26,7 @@ RUN pip install --upgrade pip
 RUN pip install \
     ansible==2.5 \
     passlib \
+    python-jenkins \    
     pyvcloud \
     pyvmomi \
     pywinrm
