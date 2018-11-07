@@ -25,12 +25,15 @@ RUN pip install --upgrade pip
 
 RUN pip install \
     ansible==2.5 \
+    grafana-api-client==0.2.0 \
+    lxml==4.2.3 \
     passlib \
-    python-jenkins \    
+    python-jenkins==1.1.0 \
     pyvcloud \
     pyvmomi \
     pywinrm \
-    zabbix-api 
+    requests==2.19.1 \
+    zabbix-api==0.5.3
 
 RUN rm -Rf ~/.pip/cache/
 
