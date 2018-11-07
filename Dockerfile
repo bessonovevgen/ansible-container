@@ -29,7 +29,8 @@ RUN pip install \
     python-jenkins \    
     pyvcloud \
     pyvmomi \
-    pywinrm
+    pywinrm \
+    zabbix-api 
 
 RUN rm -Rf ~/.pip/cache/
 
